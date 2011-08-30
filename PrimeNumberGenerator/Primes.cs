@@ -28,22 +28,18 @@ namespace PrimeNumberGenerator {
      * <summary>A Prime Number Generator Utility.</summary>
      */
     class Primes {
-        private static uint primeCount;
 
         static Primes() { }
 
         /**
          * <summary>Gets or sets the number of prime numbers generated in a list.</summary> 
          */
-        public static uint PrimeCount {
-            get { return primeCount; }
-            set { primeCount = value; }
-        }
+        public static uint PrimeCount { get; set; }
 
         /**
          * <summary>Resets the prime number counter to zero.</summary> 
          */
-        public void ResetPrimeCount() { primeCount = 0; }
+        public void ResetPrimeCount() { PrimeCount = 0; }
 
         /**
          * <summary>Generates a string list of prime numbers from 2 to the specified limit.</summary>
@@ -61,11 +57,11 @@ namespace PrimeNumberGenerator {
                 }
             }
 
-            primeCount = 0;
+            PrimeCount = 0;
             for(int k = 2; k < limit; k++) {
                 if(b.Get(k)) {
                     primeResult.Append(k + ", ");
-                    primeCount++;
+                    PrimeCount++;
                 }
             }
             primeResult.Remove(primeResult.Length - 2, 2);
