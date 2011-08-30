@@ -27,9 +27,7 @@ namespace PrimeNumberGenerator {
     /**
      * <summary>A Prime Number Generator Utility.</summary>
      */
-    class Primes {
-
-        static Primes() { }
+    public static class Primes {
 
         /**
          * <summary>Gets or sets the number of prime numbers generated in a list.</summary> 
@@ -39,7 +37,7 @@ namespace PrimeNumberGenerator {
         /**
          * <summary>Resets the prime number counter to zero.</summary> 
          */
-        public void ResetPrimeCount() { PrimeCount = 0; }
+        public static void ResetPrimeCount() { PrimeCount = 0; }
 
         /**
          * <summary>Generates a string list of prime numbers from 2 to the specified limit.</summary>
