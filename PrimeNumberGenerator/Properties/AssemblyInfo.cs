@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PrimeNumberGenerator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A prime number generator utility")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Pseudorandom Prime Number Generator")]
-[assembly: AssemblyCopyright("Copyright © 2009 John Bird")]
+[assembly: AssemblyProduct("Prime Number Generator")]
+[assembly: AssemblyCopyright("Copyright © 2011 John Bird")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
