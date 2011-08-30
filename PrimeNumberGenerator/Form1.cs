@@ -77,7 +77,7 @@ namespace PrimeNumberGenerator {
             numOfPrimesTextBox.Text = "200";
             resetButton1.Enabled = false;
 
-            Primes.PrimeCount = 0;
+            Primes.ResetPrimeCount();
             toolStripStatusLabel1.Text = "";
         }
 
